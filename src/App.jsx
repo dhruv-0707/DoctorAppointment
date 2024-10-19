@@ -10,6 +10,12 @@ import Appointment from './pages/Appointment'
 import Contact from './pages/contact'
 import Navbar from './components/Navbar'
 import Footer from './components/Footer'
+import { BrowserRouter as Router } from 'react-router-dom';
+
+
+<Router basename="/DoctorAppointment">
+  
+</Router>
 
 
 const App = () => {
